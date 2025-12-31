@@ -21,3 +21,19 @@ npm run setup
 
 # Start the application
 npm start
+
+Manual Setup
+# 1. Clone
+git clone https://github.com/yourusername/google-oauth-starter.git
+cd google-oauth-starter
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment
+cp .env.example .env
+# Edit .env with your Google credentials
+
+# 4. Start
+npm start
+
